@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2019/05/06/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>More info: <a href="https://www.zhihu.com/question/56677837?sort=created" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我在人间凑数的日子</title>
+    <url>/2020/05/06/%E6%88%91%E5%9C%A8%E4%BA%BA%E9%97%B4%E5%87%91%E6%95%B0%E7%9A%84%E6%97%A5%E5%AD%90/</url>
+    <content><![CDATA[<p>
+ <b>
+        <font face="STXingkai" size="4">我连一秒都没拥有过，却感觉失去了千万次。</font>
+    </b>
+</p>
+<a id="more"></a>
+
+<!--<p align="right">
+    <b>
+    ——Baorong
+        </b>
+</p>-->
+<p>
+ <b>
+        <font face="STXingkai" size="4">你明明能左右我的情绪，为什么不让我开心一下。</font>
+    </b>
+</p>
+<p>
+ <b>
+        <font face="STXingkai" size="4">她有新欢的那天晚上差点要了我的命。</font>
+    </b>
+</p>
+
+<p>
+ <b>
+        <font face="STXingkai" size="4">没有什么无心之语，脱口而出的往往是他最想说的。</font>
+        </b></p><p><b>
+        <font face="STXingkai" size="4">我试过销声匿迹，结果真的无人问津。</font>
+        </b></p><b>
+        <p>
+        <font face="STXingkai" size="4">除了父母，我每天都在跟不同的人明争暗斗，我以为是我战斗胜利了，特[马]的原来是让人孤立了。</font>
+        </p>
+        <p>
+        <font face="STXingkai" size="4">因为平凡 没什么好炫耀的，因为平淡 没什么想让你们知道的。</font>
+        </p>
+        <p>
+        <font face="STXingkai" size="4">我从不曾亏待生活，为何生活却是对我步步紧逼。</font>
+        </p>
+        <p>
+        <font face="STXingkai" size="4">你与清风皆过客，我与星辰皆尘埃。</font>
+        </p>
+        <p>
+        <font face="STXingkai" size="4">我很想你，但我不会主动找你，九分爱你，一分尊严，这是我最后的倔强</font>
+        </p>
+        <p>
+        <font face="STXingkai" size="4">年龄渐长，我对失去越来越无动于衷，得到什么反而会觉得惶恐。</font>
+        </p>
+        <p>
+        <font face="STXingkai" size="4">哪怕有一句分手，我也不会想你这么久。</font>
+        </p>
+        <p>
+        <font face="STXingkai" size="4">时间和新欢我选择酒，前任和香烟我选择烟。</font>
+        </p>
+        <p>
+        <font face="STXingkai" size="4">阅历这种东西,杀掉了幼稚,也误伤了纯真。</font>
+        </p>
+        <p>
+        <font face="STXingkai" size="4">烟陪了我多少年，你陪了我多少年，我戒不了烟，我戒得了你。</font>
+        </p>            
+    </b>
+<p></p>
+
+
+<br>
+
+<p><img src="/2020/05/06/%E6%88%91%E5%9C%A8%E4%BA%BA%E9%97%B4%E5%87%91%E6%95%B0%E7%9A%84%E6%97%A5%E5%AD%90/timg.jpg" alt="love"></p>
+<p>More into : <a href="http://www.yunzhan365.com/83257426.html" target="_blank" rel="noopener">我在人间凑数的日子</a></p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>在人间凑数</category>
+      </categories>
+      <tags>
+        <tag>longly</tag>
+      </tags>
+  </entry>
+</search>
