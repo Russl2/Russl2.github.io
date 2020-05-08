@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
+    <title>Hello Hexo</title>
     <url>/2019/05/06/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <a id="more"></a>
 
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a><font color="red" size="5">Quick Start</font></h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
 
 <p>More info: <a href="https://www.zhihu.com/question/56677837?sort=created" target="_blank" rel="noopener">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
@@ -18,6 +18,37 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<!--——————————————————————————————————————————————————————————————————-->
+
+<br>
+
+<h2 id="关于Hexo遇到错误"><a href="#关于Hexo遇到错误" class="headerlink" title="关于Hexo遇到错误"></a><font color="red" size="5">关于Hexo遇到错误</font></h2><h3 id="运行时出现”LF”"><a href="#运行时出现”LF”" class="headerlink" title="运行时出现”LF”"></a><center>运行时出现”LF”</center></h3><p>Hexo 博客中出现关于 LF will be replaced by CRLF 问题出现的原因以及解决方式:</p>
+<p>出现的原因</p>
+
+<ol>
+<li><p>windows中的换行符为 CRLF，而在Linux下的换行符为LF，所以在执行add . 时出现提示</p>
+</li>
+<li><p>CRLF和LF是两种不同的换行格式，git工作区默认为CRLF来作为换行符，所以当我们项目文件里有用的地方使用LF作为换行符，这个时候我们再继续git add或者git commit的时候就会弹出警告，当最终push到远程仓库的时候git会统一格式全部转化为用CRLF作为换行符</p>
+</li>
+</ol>
+<p>解决方式</p>
+
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">| git config –global core.autocrlf <span class="literal">false</span> //禁用自动转换</span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="出现SecurityError：-……"><a href="#出现SecurityError：-……" class="headerlink" title="出现SecurityError：(:) [] ……"></a><center>出现SecurityError：(:) [] ……</center></h3><p>如下图:</p>
+
+<p><img src="/images/hello-world-1.jpg" alt="1"></p>
+<p>原因：在默认情况下，我们是无法执行powershell脚本的， 需要更改执行策略。Restricted //不允许任何脚本运行
+
+</p><p>更改方法(Win10)：</p>
+<ol>
+<li>打开设置搜索power点击红色部分</li>
+</ol>
+<p><img src="/images/hello-world-2.jpg" alt="2"></p>
+<ol start="2">
+<li>往下拉找到如图位置，勾选点击应用即可</li>
+</ol>
+<p><img src="/images/hello-world-2_2.jpg" alt="3"></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -150,6 +181,36 @@
       </categories>
       <tags>
         <tag>longly</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Anaconda3配置spyder</title>
+    <url>/2020/05/07/anaconda3/</url>
+    <content><![CDATA[<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>spyder</tag>
       </tags>
   </entry>
 </search>
